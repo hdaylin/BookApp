@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Book {
 
@@ -7,10 +8,12 @@ public class Book {
 	private double price; 
 	private int instock;
 	
-	
+	// this is the default constructor 
 	public Book(){
 		
 	}
+	
+	// this is the overloaded constructor 
 	public Book(String title, String author, String description, double price, int instock){
 		this.title = title; 
 		this.author = author; 
@@ -19,12 +22,18 @@ public class Book {
 		this.instock = instock;
 		
 		
-	}
+	}  
+	
+	
+		 
+//	}
 	
 	
 	public String getDisplayText() {
 		return "Title: " + title + " Author: " + author +" Description:  " + decription + " price: " + price; 
 	}
+	
+	
 	
 	
 	public String getTitle() {

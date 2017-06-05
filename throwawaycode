@@ -1,0 +1,37 @@
+//System.out.println(a.getDisplayText());
+		//System.out.println(b.getDisplayText()); 
+		
+		/*
+		System.out.println("What book do you want? (To Kill a Mocking Bird/Kite Runner)"); 
+		title = keyboard.nextLine(); 
+		
+		if(title.equals(a.getTitle())){ 
+			System.out.println("How many do you want?"); 
+			amount = keyboard.nextInt(); 
+			
+			while(amount>a.getInstock()){
+				System.out.println("Sorry we only have "+ a.getInstock()+ " in stock."); 
+				System.out.println("How many do you want?"); 
+				amount = keyboard.nextInt(); 
+			}
+			
+			System.out.println("That will cost you: " + amount * a.getPrice());
+			
+			
+		}else if(title.equals(b.getTitle())){ 
+			System.out.println("How many do you want?"); 
+			amount = keyboard.nextInt();   
+			
+			while(amount>b.getInstock()){
+				System.out.println("Sorry we only have "+ b.getInstock()+ " in stock."); 
+				System.out.println("How many do you want?"); 
+				amount = keyboard.nextInt(); 
+			}
+			
+			System.out.println("That will cost you: " + amount * b.getPrice());
+		
+		}else{
+			System.out.println("Sorry, we don't have that book.");
+		}
+			
+	*/ 
